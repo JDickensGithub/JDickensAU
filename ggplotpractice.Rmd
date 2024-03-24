@@ -9,6 +9,7 @@ output: html_document
 
 
 library(tidyverse)
+# use head so that only the firt 6 observational rows are generated
 head(mpg)
 #1  Create a boxplot for hwy
 
