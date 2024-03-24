@@ -1,0 +1,20 @@
+---
+title: "ggplotpractice"
+author: "James Dickens"
+date: "2023-09-08"
+output: html_document
+---
+
+```{r}
+
+
+library(tidyverse)
+head(mpg)
+#1  Create a boxplot for hwy
+
+ggplot(data = mpg) +
+  geom_boxplot(mapping = aes(y = hwy))
+
+
+
+```
